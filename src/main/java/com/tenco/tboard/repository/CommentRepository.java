@@ -7,5 +7,5 @@ import com.tenco.tboard.model.Comment;
 public interface CommentRepository {
 	void addComment(Comment comment);
 	void deleteComment(int id);
-	List<Comment> getCommentsByPostId(int postId);
+	List<Comment> getCommentsByBoardId(int boardId);
 }

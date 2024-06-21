@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.board {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.board h3 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+}
+
+.board h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board h3 a:hover {
+    text-decoration: underline;
+}
+
+.board p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.board-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board-actions a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.board-actions a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+.pagination .current-page {
+    font-weight: bold;
+    color: #333;
+}

@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Comment {
 	private int id;
-	private int postId;
+	private int boardId;
 	private int userId;
 	private String content;
 	private Timestamp createdAt;
