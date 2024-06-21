@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/tboard" auth="Container" type="javax.sql.DataSource"
+              factory="com.zaxxer.hikari.HikariJNDIFactory"
+              minimumIdle="5" maximumPoolSize="10"
+              idleTimeout="30000" maxLifetime="1800000"
+              dataSourceClassName="com.mysql.cj.jdbc.MysqlDataSource"
+              dataSource.url="jdbc:mysql://localhost:3306/m_board2?serverTimezone=Asia/Seoul"
+              dataSource.user="root"
+              dataSource.password="asd123"/>
+</Context>
