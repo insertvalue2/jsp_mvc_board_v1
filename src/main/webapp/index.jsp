@@ -3,8 +3,6 @@
 <html>
 <head>
 <title>JSP MVC 게시판</title>
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/resources/css/index.css">
 <style type="text/css">
 body {
 	font-family: Arial, sans-serif;
