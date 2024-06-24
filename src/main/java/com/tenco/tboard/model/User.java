@@ -12,11 +12,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class User {
-
-	private int id;
-	private String username;
-	private String password;
-	private String email;
-	private Timestamp createdAt;
-
+    private int id;
+    private String username;
+    private String password;
+    private String email;
+    private Timestamp createdAt;
 }

@@ -4,20 +4,29 @@
 <html>
 <head>
     <title>회원가입</title>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/common.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/signup.css">
 </head>
 <body>
-    <h2>회원가입</h2>
-    <form action="${pageContext.request.contextPath}/user/signup" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <input type="submit" value="회원가입">
-    </form>
+    <div class="container">
+        <h2>회원가입</h2>
+        <form action="${pageContext.request.contextPath}/user/signup" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="회원가입" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
